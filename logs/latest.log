@@ -1,0 +1,56 @@
+[06:09:27] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
+[06:09:27] [main/INFO]: Loading 4 mods:
+	- fabricloader 0.16.10
+	   \-- mixinextras 0.4.1
+	- java 21
+	- minecraft 1.21.4
+[06:09:27] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server2/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[06:09:36] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:09:38] [main/INFO]: Loaded 1370 recipes
+[06:09:38] [main/INFO]: Loaded 1481 advancements
+[06:09:39] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[06:09:39] [Server thread/INFO]: Loading properties
+[06:09:39] [Server thread/INFO]: Default game type: SURVIVAL
+[06:09:39] [Server thread/INFO]: Generating keypair
+[06:09:39] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:09:39] [Server thread/INFO]: Using epoll channel type
+[06:09:39] [Server thread/INFO]: Preparing level "world"
+[06:09:39] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:09:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:09:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:09:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:09:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:09:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:09:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:09:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:09:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:09:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:09:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:09:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:09:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:09:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:09:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:09:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:09:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:09:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:09:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:09:48] [Server thread/INFO]: Time elapsed: 8773 ms
+[06:09:48] [Server thread/INFO]: Done (9.182s)! For help, type "help"
+[06:10:48] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[06:11:43] [User Authenticator #1/INFO]: UUID of player alheckss is 662260a7-c76e-4f4f-9758-7a3762fb2ab2
+[06:11:44] [Server thread/INFO]: alheckss[/127.254.158.48:35093] logged in with entity id 8 at (10.5, 64.0, 5.5)
+[06:11:45] [Server thread/INFO]: alheckss joined the game
+[06:12:33] [Server thread/INFO]: Set alheckss's game mode to Creative Mode
+[06:12:50] [Server thread/INFO]: alheckss lost connection: Disconnected
+[06:12:50] [Server thread/INFO]: alheckss left the game
+[06:13:10] [Server thread/INFO]: Stopping the server
+[06:13:10] [Server thread/INFO]: Stopping server
+[06:13:10] [Server thread/INFO]: Saving players
+[06:13:10] [Server thread/INFO]: Saving worlds
+[06:13:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:13:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[06:13:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[06:13:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:13:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:13:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:13:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
