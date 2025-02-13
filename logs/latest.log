@@ -1,21 +1,143 @@
-[06:42:20] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
-[06:42:20] [main/WARN]: Mod resolution failed
-[06:42:20] [main/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE tectonic 2.4.2 {depends fabric-api @ [>=0.101.0]}, ROOT_FORCELOAD_SINGLE tectonic 2.4.2]
-[06:42:20] [main/INFO]: Reason: [HARD_DEP tectonic 2.4.2 {depends fabric-api @ [>=0.101.0]}, HARD_DEP c2me-opts-natives-math 0.3.1.1.0+1.21.4 {depends java @ [>=22]}]
-[06:42:20] [main/INFO]: SERVER environment disabled: [c2me-client-uncapvd]
-[06:42:20] [main/INFO]: Fix: add [], remove [], replace [[tectonic 2.4.2] -> add:tectonic 1 ([(-∞,∞)])]
-[06:42:20] [main/ERROR]: Incompatible mods found!
-net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
-A potential solution has been determined, this may resolve your problem:
-	 - Replace mod 'Tectonic' (tectonic) 2.4.2 with any version that is compatible with:
-		 - Other constraints that can''t be automatically determined
-More details:
-	 - Mod 'Tectonic' (tectonic) 2.4.2 requires version 0.101.0 or later of fabric-api, which is missing!
-	 - Mod 'Concurrent Chunk Management Engine (Optimizations/Natives Math)' (c2me-opts-natives-math) 0.3.1.1.0+1.21.4 requires version 22 or later of 'OpenJDK 64-Bit Server VM' (java), but only the wrong version is present: 21!
-	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.16.10.jar:?]
-	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:196) ~[fabric-loader-0.16.10.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:146) ~[fabric-loader-0.16.10.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) [fabric-loader-0.16.10.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.10.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.10.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-mc.1.21.4-loader.0.16.10-launcher.1.0.1.jar:1.0.1]
+[06:45:47] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.10
+[06:45:48] [main/INFO]: Loading 34 mods:
+	- c2me 0.3.1.1.0+1.21.4
+	   |-- c2me-base 0.3.1.1.0+1.21.4
+	   |-- c2me-client-uncapvd 0.3.1.1.0+1.21.4
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.1.1.0+1.21.4
+	   |-- c2me-fixes-general-threading-issues 0.3.1.1.0+1.21.4
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.1.1.0+1.21.4
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.1.1.0+1.21.4
+	   |-- c2me-notickvd 0.3.1.1.0+1.21.4
+	   |-- c2me-opts-allocs 0.3.1.1.0+1.21.4
+	   |-- c2me-opts-chunkio 0.3.1.1.0+1.21.4
+	   |-- c2me-opts-dfc 0.3.1.1.0+1.21.4
+	   |-- c2me-opts-math 0.3.1.1.0+1.21.4
+	   |-- c2me-opts-scheduling 0.3.1.1.0+1.21.4
+	   |-- c2me-opts-worldgen-general 0.3.1.1.0+1.21.4
+	   |-- c2me-opts-worldgen-vanilla 0.3.1.1.0+1.21.4
+	   |-- c2me-rewrites-chunk-serializer 0.3.1.1.0+1.21.4
+	   |-- c2me-rewrites-chunk-system 0.3.1.1.0+1.21.4
+	   |-- c2me-rewrites-chunkio 0.3.1.1.0+1.21.4
+	   |-- c2me-server-utils 0.3.1.1.0+1.21.4
+	   |-- c2me-threading-lighting 0.3.1.1.0+1.21.4
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.8
+	   |-- mixinsquared 0.2.0-beta.6
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- fabricloader 0.16.10
+	   \-- mixinextras 0.4.1
+	- ferritecore 7.1.1
+	- java 21
+	- lithium 0.14.7+mc1.21.4
+	- minecraft 1.21.4
+	- noisium 2.5.0+mc1.21.4
+[06:45:49] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server2/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[06:45:50] [main/INFO]: Compatibility level set to JAVA_16
+[06:45:50] [main/INFO]: Compatibility level set to JAVA_17
+[06:45:51] [main/INFO]: Compatibility level set to JAVA_21
+[06:45:51] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[06:45:51] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[06:45:51] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[06:45:51] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[06:45:51] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[06:45:51] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[06:45:51] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[06:45:51] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[06:45:51] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[06:45:51] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[06:45:51] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[06:45:51] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[06:45:51] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[06:45:51] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[06:45:51] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[06:45:51] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[06:45:51] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[06:45:51] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[06:45:51] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[06:45:51] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[06:45:51] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[06:45:51] [main/INFO]: Loaded configuration file for Lithium: 142 options available, 0 override(s) found
+[06:45:53] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[06:45:54] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[06:46:10] [main/INFO]: Loading Noisium.
+[06:46:10] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:46:17] [main/INFO]: Loaded 1370 recipes
+[06:46:17] [main/INFO]: Loaded 1481 advancements
+[06:46:17] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[06:46:17] [Server thread/INFO]: Loading properties
+[06:46:17] [Server thread/INFO]: Default game type: SURVIVAL
+[06:46:17] [Server thread/INFO]: Generating keypair
+[06:46:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:46:18] [Server thread/INFO]: Using epoll channel type
+[06:46:18] [Server thread/INFO]: Preparing level "world"
+[06:46:18] [Server thread/INFO]: Enforcing safe world random access
+[06:46:20] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 1.022 s
+[06:46:20] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[06:46:29] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 12.31 ms
+[06:46:29] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 16.95 ms
+[06:46:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:46:29] [c2me-worker-0/INFO]: Preparing spawn area: 2%
+[06:46:29] [c2me-worker-0/INFO]: Preparing spawn area: 2%
+[06:46:30] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[06:46:30] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[06:46:31] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[06:46:31] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[06:46:33] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[06:46:33] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[06:46:33] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[06:46:34] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[06:46:34] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[06:46:34] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[06:46:35] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[06:46:35] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[06:46:36] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[06:46:36] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[06:46:37] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[06:46:37] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[06:46:38] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[06:46:38] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[06:46:39] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[06:46:39] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[06:46:40] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[06:46:40] [c2me-worker-0/INFO]: Preparing spawn area: 55%
+[06:46:41] [minecraft_overworld - Light/INFO]: Preparing spawn area: 61%
+[06:46:41] [c2me-worker-0/INFO]: Preparing spawn area: 65%
+[06:46:42] [c2me-worker-0/INFO]: Preparing spawn area: 71%
+[06:46:42] [c2me-worker-0/INFO]: Preparing spawn area: 71%
+[06:46:43] [c2me-worker-0/INFO]: Preparing spawn area: 79%
+[06:46:43] [c2me-worker-0/INFO]: Preparing spawn area: 85%
+[06:46:44] [c2me-worker-0/INFO]: Preparing spawn area: 87%
+[06:46:44] [c2me-worker-0/INFO]: Preparing spawn area: 95%
+[06:46:45] [Server thread/INFO]: Time elapsed: 15696 ms
+[06:46:45] [Server thread/INFO]: Done (26.719s)! For help, type "help"
+[06:47:18] [User Authenticator #1/INFO]: UUID of player alheckss is 662260a7-c76e-4f4f-9758-7a3762fb2ab2
+[06:47:19] [Server thread/INFO]: alheckss[/127.254.158.48:53763] logged in with entity id 2 at (20.5, 79.0, -472.5)
+[06:47:19] [Server thread/INFO]: alheckss joined the game
+[06:52:08] [Server thread/INFO]: alheckss lost connection: Disconnected
+[06:52:08] [Server thread/INFO]: alheckss left the game
+[06:53:08] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[06:53:47] [Server thread/INFO]: Stopping the server
+[06:53:47] [Server thread/INFO]: Stopping server
+[06:53:47] [Server thread/INFO]: Saving players
+[06:53:47] [Server thread/INFO]: Saving worlds
+[06:53:47] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 841 chunks to unload
+[06:53:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:53:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[06:53:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[06:53:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:53:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:53:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:53:48] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06:53:48] [C2ME Storage #3/INFO]: Storage thread Thread[#43,C2ME Storage #3,5,main] stopped
+[06:53:48] [C2ME Storage #2/INFO]: Storage thread Thread[#42,C2ME Storage #2,5,main] stopped
+[06:53:48] [C2ME Storage #1/INFO]: Storage thread Thread[#41,C2ME Storage #1,5,main] stopped
+[06:53:48] [C2ME Storage #6/INFO]: Storage thread Thread[#50,C2ME Storage #6,5,main] stopped
+[06:53:48] [C2ME Storage #5/INFO]: Storage thread Thread[#49,C2ME Storage #5,5,main] stopped
+[06:53:48] [C2ME Storage #8/INFO]: Storage thread Thread[#53,C2ME Storage #8,5,main] stopped
+[06:53:48] [C2ME Storage #7/INFO]: Storage thread Thread[#52,C2ME Storage #7,5,main] stopped
+[06:53:48] [C2ME Storage #9/INFO]: Storage thread Thread[#54,C2ME Storage #9,5,main] stopped
+[06:53:48] [C2ME Storage #4/INFO]: Storage thread Thread[#48,C2ME Storage #4,5,main] stopped
